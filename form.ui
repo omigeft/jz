@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>jz</class>
+ <widget class="QWidget" name="jz">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>846</width>
+    <height>547</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>jz</string>
+  </property>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>211</width>
+     <height>431</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>微程序</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>10</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>注释</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>30</y>
+     <width>591</width>
+     <height>431</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>480</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>翻译微指令</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>490</y>
+     <width>121</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开头带分号</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_2">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>490</y>
+     <width>131</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>带原微程序</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_3">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>490</y>
+     <width>151</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>汇编语句</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>520</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>作者：wmj</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_4">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>490</y>
+     <width>91</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>字段翻译</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_5">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>490</y>
+     <width>121</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>二进制代码表</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
