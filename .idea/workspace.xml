@@ -36,6 +36,11 @@
     &quot;last_opened_file_path&quot;: &quot;E:/QT/jz&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\QT\jz" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="form" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jz" />
