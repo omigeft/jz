@@ -12,4 +12,4 @@
 
 用法示例：
 
-![](https://gitee.com/intaninety/jz/blob/master/example.png)
+![](https://gitee.com/intaninety/jz/raw/master/example.png)
