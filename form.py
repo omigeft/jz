@@ -9,15 +9,16 @@
 
 
 import sys, re
+from PyQt5 import QtCore,QtWidgets
 from PyQt5.QtCore import QMetaObject, QCoreApplication, QRect
 from PyQt5.QtGui import QTextOption
-from PyQt5.QtWidgets import QApplication, QPushButton, QPlainTextEdit, QLabel, QCheckBox, QWidget, QMainWindow
+from PyQt5.QtWidgets import QApplication, QPushButton, QPlainTextEdit, QLabel, QCheckBox, QWidget, QMainWindow, QComboBox
 
 
 class Ui_jz(object):
     def setupUi(self, jz):
         jz.setObjectName("jz")
-        jz.resize(846, 547)
+        jz.resize(889, 629)
         jz.setFixedSize(jz.size())
         self.plainTextEdit = QPlainTextEdit(jz)
         self.plainTextEdit.setGeometry(QRect(20, 30, 211, 431))
@@ -30,7 +31,7 @@ class Ui_jz(object):
         self.label_2.setGeometry(QRect(240, 10, 72, 15))
         self.label_2.setObjectName("label_2")
         self.plainTextEdit_2 = QPlainTextEdit(jz)
-        self.plainTextEdit_2.setGeometry(QRect(240, 30, 591, 431))
+        self.plainTextEdit_2.setGeometry(QRect(240, 30, 631, 431))
         self.plainTextEdit_2.setObjectName("plainTextEdit_2")
         self.plainTextEdit_2.setWordWrapMode(QTextOption.NoWrap)
         self.pushButton = QPushButton(jz)
@@ -46,16 +47,119 @@ class Ui_jz(object):
         self.checkBox_3.setGeometry(QRect(430, 490, 151, 19))
         self.checkBox_3.setObjectName("checkBox_3")
         self.label_3 = QLabel(jz)
-        self.label_3.setGeometry(QRect(760, 520, 72, 15))
+        self.label_3.setGeometry(QRect(760, 490, 72, 15))
         self.label_3.setObjectName("label_3")
         self.checkBox_4 = QCheckBox(jz)
-        self.checkBox_4.setGeometry(QRect(520, 490, 91, 19))
+        self.checkBox_4.setGeometry(QRect(540, 490, 91, 19))
         self.checkBox_4.setObjectName("checkBox_4")
         self.checkBox_5 = QCheckBox(jz)
-        self.checkBox_5.setGeometry(QRect(610, 490, 121, 19))
+        self.checkBox_5.setGeometry(QRect(630, 490, 121, 19))
         self.checkBox_5.setObjectName("checkBox_5")
+        self.comboBox = QtWidgets.QComboBox(jz)
+        self.comboBox.setGeometry(QtCore.QRect(20, 590, 61, 22))
+        self.comboBox.setObjectName("comboBox")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox_2 = QtWidgets.QComboBox(jz)
+        self.comboBox_2.setGeometry(QtCore.QRect(90, 590, 61, 22))
+        self.comboBox_2.setObjectName("comboBox_2")
+        self.comboBox_2.addItem("")
+        self.comboBox_2.addItem("")
+        self.comboBox_3 = QtWidgets.QComboBox(jz)
+        self.comboBox_3.setGeometry(QtCore.QRect(160, 590, 61, 22))
+        self.comboBox_3.setObjectName("comboBox_3")
+        self.comboBox_3.addItem("")
+        self.comboBox_3.addItem("")
+        self.comboBox_4 = QtWidgets.QComboBox(jz)
+        self.comboBox_4.setGeometry(QtCore.QRect(230, 590, 61, 22))
+        self.comboBox_4.setObjectName("comboBox_4")
+        self.comboBox_4.addItem("")
+        self.comboBox_4.addItem("")
+        self.comboBox_5 = QtWidgets.QComboBox(jz)
+        self.comboBox_5.setGeometry(QtCore.QRect(300, 590, 61, 22))
+        self.comboBox_5.setObjectName("comboBox_5")
+        self.comboBox_5.addItem("")
+        self.comboBox_5.addItem("")
+        self.label_4 = QtWidgets.QLabel(jz)
+        self.label_4.setGeometry(QtCore.QRect(20, 560, 72, 15))
+        self.label_4.setObjectName("label_4")
+        self.comboBox_6 = QtWidgets.QComboBox(jz)
+        self.comboBox_6.setGeometry(QtCore.QRect(370, 590, 291, 22))
+        self.comboBox_6.setObjectName("comboBox_6")
+        self.comboBox_6.addItem("")
+        self.comboBox_6.addItem("")
+        self.comboBox_6.addItem("")
+        self.comboBox_6.addItem("")
+        self.comboBox_6.addItem("")
+        self.comboBox_6.addItem("")
+        self.comboBox_6.addItem("")
+        self.comboBox_6.addItem("")
+        self.comboBox_6.addItem("")
+        self.comboBox_6.addItem("")
+        self.comboBox_6.addItem("")
+        self.comboBox_6.addItem("")
+        self.comboBox_6.addItem("")
+        self.comboBox_6.addItem("")
+        self.comboBox_7 = QtWidgets.QComboBox(jz)
+        self.comboBox_7.setGeometry(QtCore.QRect(666, 590, 61, 22))
+        self.comboBox_7.setObjectName("comboBox_7")
+        self.comboBox_7.addItem("")
+        self.comboBox_7.addItem("")
+        self.comboBox_7.addItem("")
+        self.comboBox_7.addItem("")
+        self.comboBox_7.addItem("")
+        self.comboBox_7.addItem("")
+        self.comboBox_7.addItem("")
+        self.comboBox_8 = QtWidgets.QComboBox(jz)
+        self.comboBox_8.setGeometry(QtCore.QRect(736, 590, 61, 22))
+        self.comboBox_8.setObjectName("comboBox_8")
+        self.comboBox_8.addItem("")
+        self.comboBox_8.addItem("")
+        self.comboBox_8.addItem("")
+        self.comboBox_8.addItem("")
+        self.comboBox_8.addItem("")
+        self.comboBox_8.addItem("")
+        self.comboBox_8.addItem("")
+        self.comboBox_9 = QtWidgets.QComboBox(jz)
+        self.comboBox_9.setGeometry(QtCore.QRect(806, 590, 61, 22))
+        self.comboBox_9.setObjectName("comboBox_9")
+        self.comboBox_9.addItem("")
+        self.comboBox_9.addItem("")
+        self.comboBox_9.addItem("")
+        self.comboBox_9.addItem("")
+        self.comboBox_9.addItem("")
+        self.comboBox_9.addItem("")
+        self.comboBox_9.addItem("")
+        self.comboBox_9.addItem("")
+        self.plainTextEdit_3 = QtWidgets.QPlainTextEdit(jz)
+        self.plainTextEdit_3.setGeometry(QtCore.QRect(210, 550, 104, 31))
+        self.plainTextEdit_3.setObjectName("plainTextEdit_3")
+        self.label_5 = QtWidgets.QLabel(jz)
+        self.label_5.setGeometry(QtCore.QRect(140, 560, 72, 15))
+        self.label_5.setObjectName("label_5")
+        self.label_6 = QtWidgets.QLabel(jz)
+        self.label_6.setGeometry(QtCore.QRect(350, 560, 72, 15))
+        self.label_6.setObjectName("label_6")
+        self.plainTextEdit_4 = QtWidgets.QPlainTextEdit(jz)
+        self.plainTextEdit_4.setGeometry(QtCore.QRect(430, 550, 104, 31))
+        self.plainTextEdit_4.setObjectName("plainTextEdit_4")
+        self.pushButton_2 = QtWidgets.QPushButton(jz)
+        self.pushButton_2.setGeometry(QtCore.QRect(560, 550, 93, 28))
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.plainTextEdit_5 = QtWidgets.QPlainTextEdit(jz)
+        self.plainTextEdit_5.setGeometry(QtCore.QRect(720, 550, 151, 31))
+        self.plainTextEdit_5.setObjectName("plainTextEdit_5")
+        self.label_7 = QtWidgets.QLabel(jz)
+        self.label_7.setGeometry(QtCore.QRect(690, 560, 72, 15))
+        self.label_7.setObjectName("label_7")
+        self.line = QtWidgets.QFrame(jz)
+        self.line.setGeometry(QtCore.QRect(20, 519, 861, 31))
+        self.line.setFrameShape(QtWidgets.QFrame.HLine)
+        self.line.setFrameShadow(QtWidgets.QFrame.Sunken)
+        self.line.setObjectName("line")
 
         self.pushButton.clicked.connect(self.on_click)
+        self.pushButton_2.clicked.connect(self.on_click_2)
 
         self.retranslateUi(jz)
         QMetaObject.connectSlotsByName(jz)
@@ -64,7 +168,7 @@ class Ui_jz(object):
         _translate = QCoreApplication.translate
         jz.setWindowTitle(_translate("jz", "微程序翻译器"))
         self.label.setText(_translate("jz", "微程序"))
-        self.label_2.setText(_translate("jz", "注释"))
+        self.label_2.setText(_translate("jz", "翻译结果"))
         self.pushButton.setText(_translate("jz", "翻译微指令"))
         self.checkBox.setText(_translate("jz", "开头带分号"))
         self.checkBox_2.setText(_translate("jz", "带原微程序"))
@@ -72,15 +176,75 @@ class Ui_jz(object):
         self.label_3.setText(_translate("jz", "作者：wmj"))
         self.checkBox_4.setText(_translate("jz", "字段翻译"))
         self.checkBox_5.setText(_translate("jz", "二进制代码表"))
-
-    def get_text(self):
-        return self.plainTextEdit.toPlainText()
-
-    def set_text(self, text):
-        self.plainTextEdit_2.setPlainText(text)
+        self.comboBox.setItemText(0, _translate("jz", "M23"))
+        self.comboBox.setItemText(1, _translate("jz", "无"))
+        self.comboBox_2.setItemText(0, _translate("jz", "INTA"))
+        self.comboBox_2.setItemText(1, _translate("jz", "无"))
+        self.comboBox_3.setItemText(0, _translate("jz", "WR"))
+        self.comboBox_3.setItemText(1, _translate("jz", "无"))
+        self.comboBox_4.setItemText(0, _translate("jz", "RD"))
+        self.comboBox_4.setItemText(1, _translate("jz", "无"))
+        self.comboBox_5.setItemText(0, _translate("jz", "IOM"))
+        self.comboBox_5.setItemText(1, _translate("jz", "MEM"))
+        self.label_4.setText(_translate("jz", "字段"))
+        self.comboBox_6.setItemText(0, _translate("jz", "F=A"))
+        self.comboBox_6.setItemText(1, _translate("jz", "F=B"))
+        self.comboBox_6.setItemText(2, _translate("jz", "F=A|B"))
+        self.comboBox_6.setItemText(3, _translate("jz", "F=A&B"))
+        self.comboBox_6.setItemText(4, _translate("jz", "F=~A"))
+        self.comboBox_6.setItemText(5, _translate("jz", "F=A逻辑右移B(取低3位)位"))
+        self.comboBox_6.setItemText(6, _translate("jz", "F=A逻辑左移B(取低3位)位"))
+        self.comboBox_6.setItemText(7, _translate("jz", "F=A算术右移B(取低3位)位"))
+        self.comboBox_6.setItemText(8, _translate("jz", "F=A循环右移B(取低3位)位"))
+        self.comboBox_6.setItemText(9, _translate("jz", "F=A加B"))
+        self.comboBox_6.setItemText(10, _translate("jz", "F=A加B加Cn"))
+        self.comboBox_6.setItemText(11, _translate("jz", "F=A减B"))
+        self.comboBox_6.setItemText(12, _translate("jz", "F=A减1"))
+        self.comboBox_6.setItemText(13, _translate("jz", "F=A加1"))
+        self.comboBox_7.setItemText(0, _translate("jz", "NOP"))
+        self.comboBox_7.setItemText(1, _translate("jz", "LDA"))
+        self.comboBox_7.setItemText(2, _translate("jz", "LDB"))
+        self.comboBox_7.setItemText(3, _translate("jz", "LDR0"))
+        self.comboBox_7.setItemText(4, _translate("jz", "LOAD"))
+        self.comboBox_7.setItemText(5, _translate("jz", "LDAR"))
+        self.comboBox_7.setItemText(6, _translate("jz", "LDIR"))
+        self.comboBox_8.setItemText(0, _translate("jz", "NOP"))
+        self.comboBox_8.setItemText(1, _translate("jz", "ALU-B"))
+        self.comboBox_8.setItemText(2, _translate("jz", "RS-B"))
+        self.comboBox_8.setItemText(3, _translate("jz", "RD-B"))
+        self.comboBox_8.setItemText(4, _translate("jz", "RI-B"))
+        self.comboBox_8.setItemText(5, _translate("jz", "SP-B"))
+        self.comboBox_8.setItemText(6, _translate("jz", "PC-B"))
+        self.comboBox_9.setItemText(0, _translate("jz", "NOP"))
+        self.comboBox_9.setItemText(1, _translate("jz", "P<1>"))
+        self.comboBox_9.setItemText(2, _translate("jz", "P<2>"))
+        self.comboBox_9.setItemText(3, _translate("jz", "P<3>"))
+        self.comboBox_9.setItemText(4, _translate("jz", "P<4>"))
+        self.comboBox_9.setItemText(5, _translate("jz", "LDPC"))
+        self.comboBox_9.setItemText(6, _translate("jz", "STI"))
+        self.comboBox_9.setItemText(7, _translate("jz", "CLI"))
+        self.label_5.setText(_translate("jz", "当前地址"))
+        self.label_6.setText(_translate("jz", "下一地址"))
+        self.pushButton_2.setText(_translate("jz", "生成微指令"))
+        self.label_7.setText(_translate("jz", "结果"))
 
     def on_click(self):
-        self.plainTextEdit_2.setPlainText(self.translate(self.get_text()))
+        self.plainTextEdit_2.setPlainText(self.translate(self.plainTextEdit.toPlainText()))
+
+    def on_click_2(self):
+        self.plainTextEdit_5.setPlainText(self.generate(
+            cur = self.plainTextEdit_3.toPlainText(),
+            nxt = self.plainTextEdit_4.toPlainText(),
+            M23 = self.comboBox.currentText(),
+            INTA = self.comboBox_2.currentText(),
+            WR = self.comboBox_3.currentText(),
+            RD = self.comboBox_4.currentText(),
+            IOM = self.comboBox_5.currentText(),
+            S3_S0 = self.comboBox_6.currentText(),
+            A_seg = self.comboBox_7.currentText(),
+            B_seg = self.comboBox_8.currentText(),
+            C_seg = self.comboBox_9.currentText(),
+        ))
 
     def translate(self, text):
         rettxt = ""
@@ -155,6 +319,64 @@ class Ui_jz(object):
                     rettxt += ' '.join([M23, INTA, WR, RD, IOM, S3_S0, A_seg, B_seg, C_seg, MA5_MA0])
                 rettxt += '\n'
         return rettxt
+
+    def generate(self, cur, nxt, M23, INTA, WR, RD, IOM, S3_S0, A_seg, B_seg, C_seg):
+        if not (re.match(r"^[0-9A-F]{2}$", cur) and re.match(r"^[0-9A-F]{2}$", nxt)):
+            rettxt = '请输入两位十六进制地址！字母大写'
+        else:
+            rettxt = ''
+            if M23 == 'M23': rettxt += '1'
+            else: rettxt += '0'
+            if INTA == 'INTA': rettxt += '1'
+            else: rettxt += '0'
+            if WR == 'WR': rettxt += '1'
+            else: rettxt += '0'
+            if RD == 'RD': rettxt += '1'
+            else: rettxt += '0'
+            if IOM == 'IOM': rettxt += '1'
+            elif IOM == 'MEM': rettxt += '0'
+            if S3_S0 == 'F=A': rettxt += '0000'
+            elif S3_S0 == 'F=B': rettxt += '0001'
+            elif S3_S0 == 'F=A|B': rettxt += '0010'
+            elif S3_S0 == 'F=A&B': rettxt += '0011'
+            elif S3_S0 == 'F=~A': rettxt += '0100'
+            elif S3_S0 == 'F=A逻辑右移B(取低3位)位': rettxt += '0101'
+            elif S3_S0 == 'F=A逻辑左移B(取低3位)位': rettxt += '0110'
+            elif S3_S0 == 'F=A算术右移B(取低3位)位': rettxt += '0111'
+            elif S3_S0 == 'F=A循环右移B(取低3位)位': rettxt += '1000'
+            elif S3_S0 == 'F=A加B': rettxt += '1001'
+            elif S3_S0 == 'F=A加B加Cn': rettxt += '1010'
+            elif S3_S0 == 'F=A减B': rettxt += '1011'
+            elif S3_S0 == 'F=A减1': rettxt += '1100'
+            elif S3_S0 == 'F=A加1': rettxt += '1101'
+            if A_seg == 'NOP': rettxt += '000'
+            elif A_seg == 'LDA': rettxt += '001'
+            elif A_seg == 'LDB': rettxt += '010'
+            elif A_seg == 'LDR0': rettxt += '011'
+            elif A_seg == 'LOAD': rettxt += '101'
+            elif A_seg == 'LDAR': rettxt += '110'
+            elif A_seg == 'LDIR': rettxt += '111'
+            if B_seg == 'NOP': rettxt += '000'
+            elif B_seg == 'ALU-B': rettxt += '001'
+            elif B_seg == 'RS-B': rettxt += '010'
+            elif B_seg == 'RD-B': rettxt += '011'
+            elif B_seg == 'RI-B': rettxt += '100'
+            elif B_seg == 'SP-B': rettxt += '101'
+            elif B_seg == 'PC-B': rettxt += '110'
+            if C_seg == 'NOP': rettxt += '000'
+            elif C_seg == 'P<1>': rettxt += '001'
+            elif C_seg == 'P<2>': rettxt += '010'
+            elif C_seg == 'P<3>': rettxt += '011'
+            elif C_seg == 'P<4>': rettxt += '100'
+            elif C_seg == 'LDPC': rettxt += '101'
+            elif C_seg == 'STI': rettxt += '110'
+            elif C_seg == 'CLI': rettxt += '111'
+            rettxt += bin(int(nxt, 16))[2:].zfill(6)
+            rettxt = hex(int(rettxt, 2))[2:].zfill(6).upper()
+            rettxt = f'$M {cur} {rettxt}'
+
+        return rettxt
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)  # 实例化QApplication类，作为GUI主程序入口

@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>jz</class>
+ <widget class="QWidget" name="jz">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>889</width>
+    <height>629</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>jz</string>
+  </property>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>211</width>
+     <height>431</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>微程序</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>10</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>翻译结果</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>30</y>
+     <width>631</width>
+     <height>431</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>480</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>翻译微指令</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>490</y>
+     <width>121</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开头带分号</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_2">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>490</y>
+     <width>131</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>带原微程序</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_3">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>490</y>
+     <width>151</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>中间带分号</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>490</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>作者：wmj</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_4">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>490</y>
+     <width>91</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>字段翻译</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_5">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>490</y>
+     <width>121</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>二进制代码表</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>590</y>
+     <width>61</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>M23</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>无</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>590</y>
+     <width>61</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>INTA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>无</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_3">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>590</y>
+     <width>61</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>WR</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>无</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_4">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>590</y>
+     <width>61</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>RD</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>无</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_5">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>590</y>
+     <width>61</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>IOM</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>MEM</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>560</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>字段</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_6">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>590</y>
+     <width>291</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>F=A</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>F=B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>F=A|B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>F=A&amp;B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>F=~A</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>F=A逻辑右移B(取低3位)位</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>F=A逻辑左移B(取低3位)位</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>F=A算术右移B(取低3位)位</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>F=A循环右移B(取低3位)位</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>F=A加B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>F=A加B加Cn</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>F=A减B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>F=A减1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>F=A加1</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_7">
+   <property name="geometry">
+    <rect>
+     <x>666</x>
+     <y>590</y>
+     <width>61</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>NOP</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LDA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LDB</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LDR0</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LOAD</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LDAR</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LDIR</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_8">
+   <property name="geometry">
+    <rect>
+     <x>736</x>
+     <y>590</y>
+     <width>61</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>NOP</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ALU-B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RS-B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RD-B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RI-B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>SP-B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>PC-B</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_9">
+   <property name="geometry">
+    <rect>
+     <x>806</x>
+     <y>590</y>
+     <width>61</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>NOP</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>P&lt;1&gt;</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>P&lt;2&gt;</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>P&lt;3&gt;</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>P&lt;4&gt;</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>LDPC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>STI</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CLI</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>550</y>
+     <width>104</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>560</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>当前地址</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>560</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>下一地址</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>550</y>
+     <width>104</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>550</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>生成微指令</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_5">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>550</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>560</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>结果</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>519</y>
+     <width>861</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
